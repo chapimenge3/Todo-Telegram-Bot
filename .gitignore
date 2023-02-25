@@ -127,3 +127,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+internal.json
+matches.json

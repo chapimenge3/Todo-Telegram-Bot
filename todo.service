@@ -1,0 +1,12 @@
+[Unit]
+Description=Todo Bot
+Requires=Network.target
+After=Network.target
+
+[Service]
+WorkingDirectory=/home/ubuntu/tests/todo
+ExecStart=/bin/bash run.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
